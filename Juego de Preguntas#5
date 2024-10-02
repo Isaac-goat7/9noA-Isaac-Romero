@@ -2,10 +2,10 @@ Algoritmo JuegodePreguntas
     Definir puntuacion Como Entero;
     Definir opcion Como entero;
     puntuacion <- 0;
-    Escribir "Pregunta 1: ¿Cuál es la capital de Francia?";
-    Escribir "1) Berlín";
+    Escribir "Pregunta 1: Â¿CuÃ¡l es la capital de Francia?";
+    Escribir "1) BerlÃ­n";
     Escribir "2) Madrid";
-    Escribir "3) París";
+    Escribir "3) ParÃ­s";
     Escribir "4) Roma";
     Leer opcion;
     Segun opcion Hacer
@@ -19,13 +19,13 @@ Algoritmo JuegodePreguntas
         4:
             Escribir "Respuesta incorrecta.";
         De Otro Modo:
-            Escribir "Opción no válida.";
+            Escribir "OpciÃ³n no vÃ¡lida.";
     FinSegun
-    Escribir "Pregunta 2: ¿Cuál es el planeta más cercano al sol?";
+    Escribir "Pregunta 2: Â¿CuÃ¡l es el planeta mÃ¡s cercano al sol?";
     Escribir "1) Venus";
     Escribir "2) Marte";
     Escribir "3) Mercurio";
-    Escribir "4) Júpiter";
+    Escribir "4) JÃºpiter";
     Leer opcion;
     Segun opcion Hacer
         1:
@@ -38,13 +38,13 @@ Algoritmo JuegodePreguntas
 		4:
             Escribir "Respuesta incorrecta.";
         De Otro Modo:
-            Escribir "Opción no válida.";
+            Escribir "OpciÃ³n no vÃ¡lida.";
     FinSegun
-    Escribir "Pregunta 3: ¿Cuál es el idioma oficial de Brasil?";
-    Escribir "1) Español";
-    Escribir "2) Portugués";
-    Escribir "3) Inglés";
-    Escribir "4) Francés";
+    Escribir "Pregunta 3: Â¿CuÃ¡l es el idioma oficial de Brasil?";
+    Escribir "1) EspaÃ±ol";
+    Escribir "2) PortuguÃ©s";
+    Escribir "3) InglÃ©s";
+    Escribir "4) FrancÃ©s";
     Leer opcion;
     Segun opcion Hacer
         1:
@@ -57,9 +57,9 @@ Algoritmo JuegodePreguntas
         3:
             Escribir "Respuesta incorrecta.";
         De Otro Modo:
-            Escribir "Opción no válida.";
+            Escribir "OpciÃ³n no vÃ¡lida.";
     FinSegun
-	Escribir "Pregunta 4 ¿En qué deporte se utiliza el término (hat-trick)?";
+	Escribir "Pregunta 4 Â¿En quÃ© deporte se utiliza el tÃ©rmino (hat-trick)?";
 	Escribir "1) Rugby";
 	Escribir "2) volley";
 	Escribir "3) Baloncessto";
@@ -76,11 +76,11 @@ Algoritmo JuegodePreguntas
 			Escribir "respuesta correcta";
 			puntuacion <- puntuacion + 1; 
 		De Otro Modo:
-			Escribir "opción no válida";
+			Escribir "opciÃ³n no vÃ¡lida";
 	FinSegun
-	Escribir "Pregunta 5 ¿Cuál es el planeta más grande del sistema solar?";
+	Escribir "Pregunta 5 Â¿CuÃ¡l es el planeta mÃ¡s grande del sistema solar?";
 	Escribir "1) Saturno";
-	Escribir "2) Júpiter";
+	Escribir "2) JÃºpiter";
 	Escribir "3) Urano";
 	Escribir "4) Neptuno";
 	Leer opcion;
@@ -95,7 +95,7 @@ Algoritmo JuegodePreguntas
 		4:
 			Escribir "respuesta incorrecta";
 		De Otro Modo:
-			Escribir "opción no válida";
+			Escribir "opciÃ³n no vÃ¡lida";
 	FinSegun
 	Escribir "Tu puntuacion final es " , puntuacion;
 FinAlgoritmo
