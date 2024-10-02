@@ -4,7 +4,7 @@ Algoritmo DadoGrupo4
     i <- 0; 
     x <- 1;
     Mientras x <> 0 Hacer
-        Escribir "Elige una opción:";
+        Escribir "Elige una opciÃ³n:";
         Escribir "1 = Girar dado";
         Escribir "2 = Mostrar resultados";
         Escribir "0 = Salir";
@@ -31,7 +31,7 @@ Algoritmo DadoGrupo4
             0:
                 Escribir "Saliendo del programa.";
             De Otro Modo:
-                Escribir "Ingresa una opción correcta.";
+                Escribir "Ingresa una opciÃ³n correcta.";
         FinSegun
     FinMientras
     
