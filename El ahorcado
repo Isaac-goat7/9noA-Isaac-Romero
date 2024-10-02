@@ -36,7 +36,7 @@ Algoritmo  el_ahorcado
 			P(0)<-"O";
 			P(2)<-"o";
 			P(7)<-"o";
-			P(14)<-"Û";
+			P(14)<-"√≥";
 			P(16)<-"o";
 			P(18)<-"o";
 		FinSi
@@ -73,8 +73,8 @@ Algoritmo  el_ahorcado
 		FinSi
 		
 		Escribir "---------------------------------------";
-		si L<>"o" y L<>"O" y L<>"t" y L<>"T" y L<>"r" y L<>"R" y L<>"i" y L<>"I" y L<>"n" y L<>"N" y L<>"a" y L<>"A" y L<>"l" y L<>"L" y L<>"g" y L<>"G" y L<>"Û" y L<>"”"  Entonces
-			Escribir "Esa letra no est· en la palabra.";
+		si L<>"o" y L<>"O" y L<>"t" y L<>"T" y L<>"r" y L<>"R" y L<>"i" y L<>"I" y L<>"n" y L<>"N" y L<>"a" y L<>"A" y L<>"l" y L<>"L" y L<>"g" y L<>"G" y L<>"√≥" y L<>"√ì"  Entonces
+			Escribir "Esa letra no est√° en la palabra.";
 			Escribir "Perdiste una vida.";
 			V<-V-1;
 		FinSi
