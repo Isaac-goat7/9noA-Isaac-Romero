@@ -34,7 +34,7 @@ Algoritmo  Tres_En_Raya
 			FinMientras
 			
 			Mientras L(J1)="o" o L(J1)="x" Hacer
-				Escribir "Esa casilla est· ocupada.";
+				Escribir "Esa casilla est√° ocupada.";
 				lEER J1;
 			FinMientras
 			
@@ -70,7 +70,7 @@ Algoritmo  Tres_En_Raya
 			FinMientras
 			
 			Mientras L(J2)="o" o L(J2)="x" Hacer
-				Escribir "Esa casilla est· ocupada.";
+				Escribir "Esa casilla est√° ocupada.";
 				lEER J2;
 			FinMientras
 			
