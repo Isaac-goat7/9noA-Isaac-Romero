@@ -1,4 +1,4 @@
-Algoritmo DadoGrupo4
+Algoritmo DadoGrupo
     Definir x, dn, i,j, resultados Como Entero;
     Dimension resultados(100); 
     i <- 0; 
