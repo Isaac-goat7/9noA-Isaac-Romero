@@ -7,8 +7,8 @@ Proceso Promedio_si_y_entonces
 	Escribir P;
 	Esperar 1.5 Segundos;
 	Si P>7 Entonces
-		Escribir "El estudiante pasó el año electivo";
+		Escribir "El estudiante pasÃ³ el aÃ±o electivo";
 	SiNo
-		Escribir "El estudiante NO pasó el año electivo";
+		Escribir "El estudiante NO pasÃ³ el aÃ±o electivo";
 	FinSi
 FinProceso
